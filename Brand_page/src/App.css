@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --pink: rgb(210, 18, 130);
+  --pinkDark: rgb(165, 11, 96);
+  --pinkLight: pink;
+  --grey: rgb(29, 29, 29);
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+nav {
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+nav ul {
+  display: flex;
+  gap: 12px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul a {
+  text-decoration: none;
+  color: var(--grey);
+  font-size: 20px;
+}
+
+nav ul a:hover {
+  color: rgb(238, 19, 180);
+  font-weight: 600;
+}
+nav button {
+  all: unset;
+  background-color: var(--pink);
+  color: white;
+  height: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+nav button:hover {
+  cursor: pointer;
+  border: 2px solid var(--pink);
+  border-radius: 10px;
+  font-weight: 510;
+}
+.hero-section {
+  height: calc(100vh - 72px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.hero-main h1 {
+  font-size: 4em;
+  line-height: 80px;
+  text-transform: uppercase;
+  color: var(--pink);
+}
+.hero-main p {
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 500px;
+}
+.hero-main button {
+  background-color: var(--pink);
+  color: white;
+  height: 35px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.hero-main button:hover {
+  cursor: pointer;
+  border: 2px solid var(--pink);
+  border-radius: 10px;
+  font-size: 21px;
+  font-weight: 510;
+}
+.heroBtn {
+  display: flex;
+  justify-content: left;
+  gap: 24px;
+}
+#secondary-btn {
+  background: transparent;
+  color: var(--grey);
+  font-size: 18px;
+  font-weight: 570;
+}
+#shopping {
+  all: unset;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.brand-idols {
+  display: flex;
+  gap: 10px;
+}
